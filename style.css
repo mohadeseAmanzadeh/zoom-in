@@ -1,0 +1,25 @@
+.zoom {
+    width: 65%;
+    display: flex;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 25%;
+    box-sizing: border-box;
+}
+.image {
+    margin-bottom: 5px;
+    cursor: pointer;
+    height: 150px;
+    width: 100%;
+}
+.zoomed {
+    flex: 1;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    margin-left: 5px;
+    /* height: 610px; */
+}

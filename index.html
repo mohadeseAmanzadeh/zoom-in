@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="zoom" id="my-gallery">
+        <div class="sidebar">
+            <img src="images/nature.jpg" alt="" class="image">
+            <img src="images/nature8.jpg" alt="" class="image">
+            <img src="images/winter.jpg" alt="" class="image">
+        </div>
+        <div class="zoomed"></div>
+        <script src="zoom.js"></script>
+        <script>
+            zoom.init('#my-gallery')
+        </script>
+    </div>
+</body>
+</html>
